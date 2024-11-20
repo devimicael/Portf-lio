@@ -1,0 +1,38 @@
+:root {
+  --color-primary: #ffffff;
+  --color-secondary: #111111;
+
+  --color-electric-violet-50: #f4f3ff;
+  --color-electric-violet-100: #ebe9fe;
+  --color-electric-violet-200: #dad6fe;
+  --color-electric-violet-300: #beb4fe;
+  --color-electric-violet-400: #9c8afb;
+  --color-electric-violet-500: #7c5af8;
+  --color-electric-violet-600: #622bee;
+  --color-electric-violet-700: #5d26db;
+  --color-electric-violet-800: #4e1fb8;
+  --color-electric-violet-900: #411c96;
+  --color-electric-violet-950: #260f66;
+
+  --container-width: 1350px;
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.banner {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 800;
+  color: var(--color-primary);
+  font-family: "Nunito", sans-serif;
+}
+
+.banner .banner-dev,
+.banner .banner-dot {
+  color: var(--color-electric-violet-500);
+}
